@@ -1,0 +1,12 @@
+[sn]
+sn1 ansible_host=178.154.227.115 ansible_user=alitowka
+
+[wn]
+wn ansible_host=178.154.221.195 ansible_user=alitowka
+
+[rancher]
+rancher ansible_host=178.154.224.17 ansible_user=alitowka
+
+[all:vars]
+ansible_ssh_private_key_file=~/.ssh/yc_key
+ansible_python_interpreter=/usr/bin/python3
